@@ -12,9 +12,13 @@ posts = db.posts
 post = {"birthdate": birthday,
         "name": full_name,
         "number": phone_number,
-        "email": your_email,
-        "contacts": contact
-        "contactname "
+        "email": email,
+        "contact1":  contact1,
+        "contact2": contact2,
+        "contactname1": contactname1,
+        "contactname2": contactname2,
+        
+        
         
         
 
