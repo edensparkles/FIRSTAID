@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="6;url=http://www.yahoo.com/" />
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif} 
+    .w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
+<style>
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid red;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+</style>
+</head>
+<body>
+<ul class="w3-navbar w3-red w3-card-2 w3-top w3-left-align w3-large">
+  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
+    <a class="w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  </li>
+  <li><a href="#" class="w3-padding-large w3-white">EMERGENCY</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" onclick="window.location.href='file:///C:/Users/GWC1/Desktop/First%20Aid/opening.html'"> HOME</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" onclick="window.location.href='file:///C:/Users/GWC1/Desktop/First%20Aid/log%20in/index.html'">SIGN UP & LOG IN</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" onclick="window.location.href='http://conversation-simple-ashleymuflam-946.mybluemix.net/'">MEDICAL TIPS</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" onclick="window.location.href='file:///C:/Users/GWC1/Desktop/First%20Aid/FirstResp.html'">BECOME A RESPONDER</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" onclick="window.location.href='CHANGE THIS'">SETTINGS</a></li>
+  <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white" onclick="window.location.href='CHANGE THIS'">FAQS</a></li>
+</ul>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:51px">
+  <ul class="w3-navbar w3-left-align w3-large w3-black">
+    <li><a class="w3-padding-large" href="#" onclick="window.location.href='file:///C:/Users/GWC1/Desktop/First%20Aid/opening.html'">HOME</a></li>
+    <li><a class="w3-padding-large" href="#" onclick="window.location.href='file:///C:/Users/GWC1/Desktop/First%20Aid/log%20in/index.html'">SIGN UP & LOG IN</a></li>
+    <li><a class="w3-padding-large" href="#" onclick="window.location.href='http://conversation-simple-ashleymuflam-946.mybluemix.net/'">MEDICAL TIPS</a></li>
+    <li><a class="w3-padding-large" href="#" onclick="window.location.href='file:///C:/Users/GWC1/Desktop/First%20Aid/FirstResp.html'">BECOME A RESPONDER</a></li>
+    <li><a class="w3-padding-large" href="#" onclick="window.location.href='/settings'">SETTINGS</a></li>
+    <li><a class="w3-padding-large" href="#" onclick="window.location.href='/faqs'">FAQS</a></li>
+
+  </ul>
+</div>
+<center>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2>Requesting First Responder...</h2>
+<br>
+<div class="loader"></div>
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>    
+
+</body>
+</html>
+

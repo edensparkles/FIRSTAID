@@ -28,19 +28,25 @@
 </div>
 <div class="form">
   <div class="thumbnail"><img src="https://d30y9cdsu7xlg0.cloudfront.net/png/70543-200.png"/></div>
-  <form class="register-form">
+  <form class="register-form" method="post">
     <input type="text" placeholder="name"/>
     <input type="password" placeholder="password"/>
-    <input type="text" placeholder="email address"/>
+    <input type="email" placeholder="email address"/>
+    <input type="dob" placeholder= "date of birth (MONTH/DAY/YEAR)"/>
+    <input type="contact1" placeholder="contact 1 (name)"/>
+    <input type="contact1_num" placeholder="contact 1 (phone number)"/>
+    <input type="contact2" placeholder="contact 2 (name)"/>
+    <input type="contact2_num" placeholder="contact 2 (phone number)"/>
+
     <button>create</button>
     <p class="message">Already registered? <a href="#">Sign In</a></p>
   </form>
-  <form class="login-form">
+  <form class="login-form" method="post">
     <input type="text" placeholder="username"/>
     <input type="password" placeholder="password"/>
     <button>login</button>
     <p class="message">Not registered? <a href="#">Create an account</a></p>
-    <br><br><span>Made with <i class="fa fa-heart"></i> by <a href="http://andytran.me">Andy Tran</a></span>
+    
   </form>
 </div>
 <video id="video" autoplay="autoplay" loop="loop" poster="polina.jpg">
